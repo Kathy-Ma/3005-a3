@@ -1,7 +1,5 @@
 import psycopg2
-
-db_name = "student_db"
-db_password = ""
+from create_db import db_name, db_password
 
 def connect():
     try:

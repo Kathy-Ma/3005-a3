@@ -1,7 +1,7 @@
 import psycopg2
 
-db_name = "student_db_test"
-db_password = ""
+db_name = "student_db"
+db_password = "INSERT_PASSWORD_HERE"
 
 def createDb():
     try:
