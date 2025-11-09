@@ -66,10 +66,10 @@ def deleteStudent(student_id):
 def main():
 
     if __name__ == "__main__":
-        getAllStudents()
-        addStudent("hana", "reed", "hana.reed@example.com", "2023-09-05")
-        # updateStudentEmail(1, "john.newemail@example.com")
-        deleteStudent(1)
+        # getAllStudents()
+        # addStudent("katherine", "ma", "kafrine.ma@example.com", "2023-09-05")
+        # updateStudentEmail(4, "katherine.ma@example.com")
+        deleteStudent(6)
         getAllStudents()
 
 

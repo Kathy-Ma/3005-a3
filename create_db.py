@@ -16,11 +16,11 @@ def createDb():
         cursor = conn.cursor()
 
         # creating db
-        cursor.execute("CREATE DATABASE %s", db_name)
-
+        cursor.execute(f"CREATE DATABASE {db_name};")
+        print(f"Database '{db_name}' created")
         conn.close()
-    except:
-        print("Failed to create database. Possibly due to existing database with same name")
+    except Exception as e:
+        print("Failed to create database. Possibly due to existing database with same name: {e}")
 
 def connect():
     try:
@@ -70,8 +70,9 @@ def addStudents():
     conn.close()
 
 def main():
-    createDb()
-    createTable()
-    addStudents()
+    if __name__ == "__main__":
+        createDb()
+        createTable()
+        addStudents()
 
 main()
