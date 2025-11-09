@@ -69,7 +69,7 @@ def main():
         # getAllStudents()
         # addStudent("katherine", "ma", "kafrine.ma@example.com", "2023-09-05")
         # updateStudentEmail(4, "katherine.ma@example.com")
-        deleteStudent(6)
+        # deleteStudent(6)
         getAllStudents()
 
 
