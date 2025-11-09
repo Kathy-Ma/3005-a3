@@ -6,3 +6,6 @@ To run this script:
 2. At the top of create_db.py set the database name and your password for your postgreSQL connection
 3. Run create_db.py to create the database from scratch
 4. Run connect_db.py for the other CRUD functions
+
+# Video Link
+https://youtu.be/a2VNF-NHp90
